@@ -11,35 +11,27 @@ body {
 }
 
 .contenedortres {
-    flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-}
-
-.imgtiktok, .giftiktok {
-    max-width: 400px; 
-    width: 100%;
+    height: 600px;
 }
 
 
 .contenedortres {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
+    margin-left: 400px;
 }
 
-.giftiktok img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    object-fit: contain;
+.contenedortres .tiktokgiff{
     margin-left: 200px;
+    height: 700px;
+    display: flex;
 }
 
 .imgtiktok img {
-    width: 600px;
+    width: 500px;
     height: auto;
     margin-right: 100px;
 }
