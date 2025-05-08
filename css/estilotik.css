@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedortres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imgtiktok, .giftiktok {
+    max-width: 400px; 
+    width: 100%;
+}
+
+
+.contenedortres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.giftiktok img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 200px;
+}
+
+.imgtiktok img {
+    width: 600px;
+    height: auto;
+    margin-right: 100px;
+}
+
+/*update*/
+
+.Volver {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Volver a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+}
